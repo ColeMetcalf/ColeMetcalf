@@ -1,0 +1,21 @@
+
+.background{
+    width: 100vw;
+    height: 100vh;
+}
+.background img{
+    max-width: 100%;
+}
+
+.rentext{
+    margin:4vh ;
+    text-align: center;
+    width: 96vw;
+    height:20vh;
+    font-family: monoco, monospace;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0,0,0,.5);
+    color: white;
+    font-size: 24pt;
+}
