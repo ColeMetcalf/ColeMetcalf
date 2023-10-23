@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css?family=Assistant&family=PT+Sans+Narrow:wght@700&display=swap');
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #A0ACAD;
+}
+h1{
+    color: #33032F;
+    font-family: "PT Sans Narrow Bold", sans-serif;
+}
+nav{
+    font-family: "Assistant", sans-serif;
+    height: 50vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:22px;
+    background-color: #531253;
+}
+nav a {
+    width:10vw;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    transition: transform 0.2s ease-in-out;
+}
+nav a:hover {
+    transform: translateY(-10px);
+}
+
+nav a {
+    width:10vw;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    transition: transform 0.2s ease-in-out;
+}
+img{
+    width:500px;
+    height:500px;
+    border-radius:50%;
+    transition: width 0.5s ease-in-out, height 0.5s ease-in-out; /* Add transitions to width and height */
+    cursor: pointer;
+} 
+  img:hover {
+    width: 1000px; /* Increase width to 150px on hover */
+    height: 1000px; /* Increase height to 150px on hover */
+  }
