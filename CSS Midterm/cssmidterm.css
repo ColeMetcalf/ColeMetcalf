@@ -1,0 +1,531 @@
+@import url('https://fonts.googleapis.com/css2?family=Carme&family=Fira+Sans+Condensed:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Heebo&family=Lato&family=Oswald:wght@200;300;400;500;600;700&family=PT+Sans+Narrow:wght@400;700&family=Roboto:wght@400;500;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet');
+body{
+    background-color:white;
+}   
+nav a{
+    color:#895530;
+    margin-left: 30px;
+}
+/* Styles for screens larger than 500px */
+@media (min-width: 501px) {
+    nav{
+        font-family: "PT Sans Narrow", sans-serif; 
+        font-size: 11pt;
+        font-weight:700;
+        display:flex; 
+        flex-direction: row;
+        height:35px;
+        margin-top: 20px;
+    
+        background-color: white;
+        top: 0;
+        position: sticky;
+    
+    }
+    .logo{
+        width: 500px;
+        height: auto;
+    }
+    h1 {
+        color: #683319;
+        font-family: "PT Sans Narrow", sans-serif; 
+        font-size: 70pt;
+        
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    h2 {
+        color: #895530;
+        font-family: "PT Sans Narrow", sans-serif; 
+        font-size: 50pt;
+        margin-left: 190px;
+        margin-top: -10px;
+    }
+    h3 {
+        color: #A68676;
+        font-family: "PT Sans Narrow", sans-serif;  
+        font-weight:700;
+        font-size: 25pt;
+        margin-top: -30px;
+    }
+    h4 {
+        color: #683319;
+        font-family: "PT Sans Narrow", sans-serif; 
+        font-size: 60pt;
+        padding: 50px;
+        margin-left: 10px;
+        width: 56vw;
+    }
+    h5{
+        color: #491F03;
+        font-family: "PT Sans Narrow", sans-serif; 
+        font-size: 58pt;
+        padding: 50px;
+        margin-left: 550px;
+        line-height: 1;
+    }
+    h6 {
+        color: #683319;
+        font-family: "PT Sans Narrow", sans-serif; 
+        font-size: 50pt;
+        padding: 50px;
+        margin-left: 10px;
+        margin-bottom: 100px;
+        width: 56vw;
+    }
+    p{
+        color: #683319;
+        font-size: 18pt;
+        font-family: "PT Sans Narrow", sans-serif;
+        margin-bottom: 19vh;
+        line-height:1.2;
+    }
+    .intro{
+        display: flex;
+    }
+    .grid {
+        margin: 0 100px;
+        padding: 0 0px;
+        max-width: 3000px;
+      }
+    .page {
+        background-color: #B4998B;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+    }
+    .page2 {
+        background-color: #956542;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+    }
+    .Vivaldi {
+        display: flex;
+    }
+    .strings{
+        margin-top: -332px;
+        margin-left: 0px;
+        width: 540px; 
+        height: 440px;
+    }
+    .strings2{
+        margin-top: -380px;
+        margin-left: 0px;
+        width: 540px; 
+        height: 440px;
+    }
+    .time{
+        color: #E7DED9;
+        background-color: #8B5F47;
+        border: 10px solid #8B5F47;
+        width: 250px;
+        height: 140px;
+        font-family: "PT Sans Narrow", sans-serif; 
+        font-size: 20pt;
+        font-weight: 700;
+        margin-top:-140px;
+        margin-left:20px;
+    }
+    
+    .words {
+        font-size: 24px;
+        width: 700px;
+        margin-top:-140px;
+        margin-left:57px
+    }
+    .content{
+        color:#491F03;
+        /* background-color:#C6B2A6;
+        border: 10px solid #C6B2A6; */
+        font-family: "PT Sans Narrow", sans-serif;
+        font-weight: 400;
+        line-height: 1.5;
+    
+    }
+    .content2{
+        color:#491F03;
+        /* background-color:#C6B2A6;
+        border: 10px solid #C6B2A6; */
+        font-family: "PT Sans Narrow", sans-serif;
+        font-weight: 400;
+        line-height: 1.5;
+        margin-top: 30px;
+        margin-right: -220px;
+    }
+    .symp{
+        margin-top: -500px;
+        margin-left: 0px;
+        width: 540px; 
+        height: 480px;
+    }
+    .symp2{
+        margin-top: -320px;
+        margin-left: 0px;
+        width: 540px; 
+        height: 480px;
+    }
+    .symp3{
+        margin-top: -500px;
+        margin-left: 0px;
+        width: 540px; 
+        height: 480px;
+    }
+    .time2{
+        color: #E7DED9;
+        background-color: #713F24;
+        border: 10px solid #713F24;
+        width: 250px;
+        height: 140px;
+        font-family: "PT Sans Narrow", sans-serif; 
+        font-size: 20pt;
+        font-weight: 700;
+        margin-top:-140px;
+        margin-left:0px;
+    }
+    .content3{
+        color:#491F03;
+        /* background-color:#C6B2A6;
+        border: 10px solid #C6B2A6; */
+        font-family: "PT Sans Narrow", sans-serif;
+        font-size: 17pt;
+        font-weight: 400;
+        line-height: 1.5;
+        margin-left: -40px;
+        margin-right: 30px;
+        margin-top: -5px;
+    }
+    .content4{
+        color:#491F03;
+        /* background-color:#C6B2A6;
+        border: 10px solid #C6B2A6; */
+        font-family: "PT Sans Narrow", sans-serif;
+        font-weight: 400;
+        font-size: 17pt;
+        line-height: 1.5;
+        margin-top: 5px;
+        margin-right: 30px;
+        margin-left: -240px;
+    }
+    .content5{
+        color:#491F03;
+        /* background-color:#C6B2A6;
+        border: 10px solid #C6B2A6; */
+        font-family: "PT Sans Narrow", sans-serif;
+        font-size: 15pt;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+    .FeaturedArtists1{
+        color: white;
+        background-color: #956542;
+        font-family: "PT Sans Narrow", sans-serif;  
+        font-weight:400;
+        font-size: 20pt;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+    .Repertoire1{
+        color: white;
+        background-color: #956542;
+        font-family: "PT Sans Narrow", sans-serif;
+        text-align: right;  
+        font-weight:400;
+        font-size: 20pt;
+        margin-top: 5px;
+        margin-right: 10px;
+    }
+    .songs {
+        color: #895530;
+        font-family: "PT Sans Narrow", sans-serif;  
+        font-weight:400;
+        font-size: 20pt;
+        text-align: right; 
+        margin-top:8px;
+        margin-bottom:8px;
+        margin-left: 10px;
+    }
+    .people{
+        background-color: white;
+        margin-left: 0px;
+        margin-top: -10px;
+        width: 540px; 
+        height:400px;
+    }
+    .FeaturedArtists{
+        color: white;
+        background-color: #B4998B;
+        font-family: "PT Sans Narrow", sans-serif;  
+        font-weight:400;
+        font-size: 20pt;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    .artists{
+        color: #895530;
+        font-family: "PT Sans Narrow", sans-serif;  
+        font-weight:400;
+        font-size: 20pt;
+        margin-top:8px;
+        margin-bottom:8px;
+        margin-left: 10px;
+    }
+    .Repertoire{
+        color: white;
+        background-color: #B4998B;
+        font-family: "PT Sans Narrow", sans-serif;
+        text-align: right;  
+        font-weight:400;
+        font-size: 20pt;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+}
+
+/* Styles for screens smaller than 500px */
+@media (max-width: 500px) {
+    nav{
+        font-family: "PT Sans Narrow", sans-serif; 
+        font-size: 11pt;
+        font-weight:700;
+        display:flex; 
+        flex-direction: row;
+        height:60px;
+        margin-top: 20px;
+        background-color: white;
+        top: 0;
+        position: sticky;
+    
+    }
+    .logo{
+        width: 40px;
+        height: auto;
+    }
+    h1 {
+        color: #683319;
+        font-family: "PT Sans Narrow", sans-serif; 
+        font-size: 40pt;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    h2 {
+        color: #895530;
+        font-family: "PT Sans Narrow", sans-serif; 
+        font-size: 40pt;
+        margin-top: -10px;
+    }
+    h3 {
+        color: #A68676;
+        font-family: "PT Sans Narrow", sans-serif;  
+        font-weight:700;
+        font-size: 20pt;
+        font-size: 25pt;
+        margin-top: -30px;
+    }
+    h4 {
+        color: #683319;
+        background-color: #B4998B;
+        font-family: "PT Sans Narrow", sans-serif; 
+        font-size: 30pt;
+        padding: 20px;
+
+    }
+    h5{
+        color: #491F03;
+        background-color: #956542;
+        font-family: "PT Sans Narrow", sans-serif; 
+        font-size: 30pt;
+        padding: 20px;
+        line-height: 1;
+    }
+    h6 {
+        color: #683319;
+        background-color: #B4998B;
+        font-family: "PT Sans Narrow", sans-serif; 
+        font-size: 30pt;
+        padding: 50px;
+        padding: 20px;
+    }
+    p{
+        color: #683319;
+        font-size: 18pt;
+        font-family: "PT Sans Narrow", sans-serif;
+        margin-bottom: 19vh;
+        line-height:1.2;
+    }
+    .content{
+        color:#491F03;
+        background-color: #B4998B;
+        /* background-color:#C6B2A6;
+        border: 10px solid #C6B2A6; */
+        font-family: "PT Sans Narrow", sans-serif;
+        font-weight: 400;
+        font-size: 14pt;
+        line-height: 1.5;
+        margin-top: -50px;
+        padding: 10px;
+    
+    }
+    .content2{
+        color:#491F03;
+        background-color: #B4998B;
+        /* background-color:#C6B2A6;
+        border: 10px solid #C6B2A6; */
+        font-family: "PT Sans Narrow", sans-serif;
+        font-weight: 400;
+        font-size: 14pt;
+        line-height: 1.5;
+        padding: 10px;
+    }
+    .content3{
+        color:#491F03;
+        background-color: #956542;
+        font-family: "PT Sans Narrow", sans-serif;
+        font-weight: 400;
+        font-size: 14pt;
+        line-height: 1.5;
+        padding: 10px;
+    }
+    .content4{
+        color:#491F03;
+        background-color: #956542;
+        font-family: "PT Sans Narrow", sans-serif;
+        font-weight: 400;
+        font-size: 14pt;
+        line-height: 1.5;
+        padding: 10px;
+    }
+    .content5{
+        color:#491F03;
+        /* background-color:#C6B2A6;
+        border: 10px solid #C6B2A6; */
+        font-family: "PT Sans Narrow", sans-serif;
+        font-size: 15pt;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+    .time{
+        color: #E7DED9;
+        background-color: #8B5F47;
+        border: 10px solid #8B5F47;
+        width: 250px;
+        height: 140px;
+        font-family: "PT Sans Narrow", sans-serif; 
+        font-size: 20pt;
+        font-weight: 700;
+        margin-left:20px;
+    }
+    .time2{
+        color: #E7DED9;
+        background-color: #713F24;
+        border: 10px solid #713F24;
+        width: 250px;
+        height: 140px;
+        font-family: "PT Sans Narrow", sans-serif; 
+        font-size: 20pt;
+        font-weight: 700;
+        margin-left:0px;
+    }
+    .strings{
+        margin-left: 0px;
+        width: 200px; 
+        height: auto;
+
+    }
+    .strings2{
+        margin-left: 0px;
+        width: 200px; 
+        height: auto;
+    }
+    .people{
+        background-color: white;
+        margin-left: 0px;
+        margin-top: -10px;
+        width: 540px; 
+        height:400px;
+    }
+    .FeaturedArtists{
+        color: white;
+        background-color: #B4998B;
+        font-family: "PT Sans Narrow", sans-serif;  
+        font-weight:400;
+        font-size: 20pt;
+        margin-left: 10px;
+        width: 90vw;
+        margin-top: 5px;
+    }
+    .FeaturedArtists1{
+        color: white;
+        background-color: #956542;
+        font-family: "PT Sans Narrow", sans-serif;  
+        font-weight:400;
+        font-size: 20pt;
+        margin-right: 10px;
+        width: 90vw;
+        margin-top: -150px;
+    }
+    .Repertoire{
+        color: white;
+        background-color: #B4998B;
+        font-family: "PT Sans Narrow", sans-serif;
+        text-align: right;  
+        font-weight:400;
+        font-size: 20pt;
+        width: 90vw;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    .Repertoire1{
+        color: white;
+        background-color: #956542;
+        font-family: "PT Sans Narrow", sans-serif;
+        text-align: right;  
+        font-weight:400;
+        font-size: 20pt;
+        width: 90vw;
+        margin-top: 5px;
+    }
+    .artists{
+        color: #895530;
+        font-family: "PT Sans Narrow", sans-serif;  
+        font-weight:400;
+        font-size: 15pt;
+        margin-top:8px;
+        margin-bottom:8px;
+        margin-left: 10px;
+    }
+    .songs {
+        color: #895530;
+        font-family: "PT Sans Narrow", sans-serif;  
+        font-weight:400;
+        font-size: 15pt;
+        text-align: right; 
+        width: 90vw;
+        margin-top:8px;
+        margin-bottom:8px;
+        margin-left: 10px;
+    }
+    .symp{
+        width: 100px; 
+        height: auto;
+        margin-bottom: 15px;
+        margin-left: 330px;
+    }
+    .symp2{
+
+        width: 100px; 
+        height: auto;
+        margin-bottom: 15px;
+        margin-left: 330px;
+    }
+    .symp3{
+        width: 100px; 
+        height: auto;
+        margin-bottom: 15px;
+        margin-left: 200px;
+    }
+}

@@ -1,5 +1,5 @@
 body {
-    background-color: #fff;
+    background-color: white;
     color: #333;
     margin: 0;
     font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
@@ -38,7 +38,6 @@ nav a {
 }
 
 .grid {
-
   margin: 0 auto;
   padding: 0 20px;
   max-width: 980px;
@@ -56,11 +55,11 @@ nav ul {
   list-style: none;
   
 }
-article {
+/* article {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-}
+} */
 
 .photos {
   display: grid;

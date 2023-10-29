@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Carme&family=Fira+Sans+Condensed:ital,wght@0,500;0,600;0,700;1,500;1,600&family=PT+Sans+Narrow:wght@700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet');
+body{
+    background-color:white;
+}   
+
+h1 {
+    color: #683319;
+    font-family: "PT Sans Narrow", sans-serif; 
+    font-size: 70pt;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+    color: #895530;
+    font-family: "PT Sans Narrow", sans-serif; 
+    font-size: 50pt;
+    margin-left: 190px;
+    margin-top: -10px;
+}
+h3 {
+    color: #A68676;
+    font-family: "PT Sans Narrow", sans-serif;  
+    font-size: 25pt;
+    margin-top: -40px;
+}
+p{
+    color: #683319;
+    font-family: "Carme", sans-serif;
+}
+nav{
+    font-family: "PT Sans Narrow", sans-serif; 
+    font-size: 20pt;
+    display:flex; 
+    flex-direction: row;
+    height:35px;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-color: white;
+
+}
+nav a{
+    color:#895530;
+ 
+}
+.logo {
+    width: 500px; /* Set the width of the image */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+    /* Add a border around the image */
+}
+.intro{
+    display: flex;
+}
+.grid {
+    margin: 0 100px;
+    padding: 0 0px;
+    max-width: 3000px;
+  }
