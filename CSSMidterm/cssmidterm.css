@@ -30,9 +30,6 @@ nav a{
         color: #683319;
         font-family: "PT Sans Narrow", sans-serif; 
         font-size: 70pt;
-        
-        margin-bottom: 0px;
-        padding-bottom: 0px;
         display: flex;
         flex-direction: column;
     }
