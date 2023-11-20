@@ -16,7 +16,6 @@ function predictName(){
                 output.style.display = 'none'; 
              }
 
-
          })
          .catch(err => console.log(err));
      }
