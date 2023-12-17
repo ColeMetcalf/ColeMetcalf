@@ -1,0 +1,80 @@
+
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+  }
+   h1 {
+    font-family: "Carme", sans-serif; 
+    font-size: 35pt;
+    font-weight: bold;
+    color: grey;
+    margin-left: 30vh;
+  }
+  .instructions {
+    font-family: "Carme", sans-serif; 
+    font-size: 12pt;
+    font-weight: bold;
+    color: #9c0063;
+  }
+    /* THE SLIDER */
+  /* The slider itself */
+  .slider {
+    -webkit-appearance: none; 
+    appearance: none;
+    width: 100%; 
+    height: 25px; 
+    border-radius: 5px; 
+    background: #d3d3d3; 
+    outline: none; 
+    opacity: 0.7; 
+    -webkit-transition: .2s; 
+    transition: opacity .2s;
+  }
+  
+  /* Mouse-over effects */
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    appearance: none;
+    width: 25px; 
+    height: 25px; 
+    border-radius: 50%;
+    background: #9c0063; 
+    cursor: pointer; 
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px; 
+    height: 25px; 
+    border-radius: 5px; 
+    background: #9c0063;
+    cursor: pointer; 
+  }
+  .valuecontainer { 
+    font-family: "roboto", sans-serif; 
+    font-size: 70pt;
+    font-weight: bold;
+    color: #9c0063;
+    margin-left: 59vh;
+    margin-top: 12;
+  }
+  button {
+    background-color: #9c0063;
+    height: 60px;
+    width: 200px;
+    color: white; /* White text color */
+    font-size: 12pt;
+    padding: 10px 20px; /* Padding for better appearance */
+    border: none; /* Remove border */
+    border-radius: 10px; /* Add a slight border radius */
+    cursor: pointer; /* Change cursor on hover */
+    margin-left: 42vw;
+}
+
+/* Add a hover effect */
+button:hover {
+    background-color: grey; /* Darker green on hover */
+}
