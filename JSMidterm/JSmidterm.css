@@ -1,6 +1,5 @@
-
 .slidecontainer {
-    width: 100%; /* Width of the outside container */
+    width: 100%;
   }
    h1 {
     font-family: "Carme", sans-serif; 
@@ -11,12 +10,10 @@
   }
   .instructions {
     font-family: "Carme", sans-serif; 
-    font-size: 12pt;
+    font-size: 14pt;
     font-weight: bold;
     color: #9c0063;
   }
-    /* THE SLIDER */
-  /* The slider itself */
   .slider {
     -webkit-appearance: none; 
     appearance: none;
@@ -29,13 +26,15 @@
     -webkit-transition: .2s; 
     transition: opacity .2s;
   }
-  
-  /* Mouse-over effects */
+  .last-entered-number {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+}
   .slider:hover {
     opacity: 1;
-  }
-  
-  /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+  }  
   .slider::-webkit-slider-thumb {
     -webkit-appearance: none; 
     appearance: none;
@@ -45,7 +44,6 @@
     background: #9c0063; 
     cursor: pointer; 
   }
-  
   .slider::-moz-range-thumb {
     width: 25px; 
     height: 25px; 
@@ -61,20 +59,56 @@
     margin-left: 59vh;
     margin-top: 12;
   }
-  button {
+  .showPhoneNumber {
     background-color: #9c0063;
     height: 60px;
     width: 200px;
-    color: white; /* White text color */
+    color: white; 
     font-size: 12pt;
-    padding: 10px 20px; /* Padding for better appearance */
-    border: none; /* Remove border */
-    border-radius: 10px; /* Add a slight border radius */
-    cursor: pointer; /* Change cursor on hover */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; 
     margin-left: 42vw;
 }
-
-/* Add a hover effect */
+.callPhoneNumber {
+  background-color:#9c0063;
+  height: 50px;
+  width: 250px;
+  color: white;
+  font-size: 12pt;
+  padding: 10px 20px;
+  border: none; 
+  border-radius: 10px; 
+  cursor: pointer; 
+}
 button:hover {
-    background-color: grey; /* Darker green on hover */
+    background-color: grey; 
+}
+.last-entered-number {
+  font-family: "roboto", sans-serif; 
+  font-size: 130px;
+  font-weight: bold;
+  color: white;
+  margin-top: 10px;
+  text-align: center;
+}
+.bottom-half {
+  height: 50vh;
+}
+
+.resetButton {
+  background-color: #9c0063;
+  height: 50px;
+  width: 250px;
+  color: white;
+  font-size: 12pt;
+  padding: 10px 20px;
+  border: none; 
+  border-radius: 10px; 
+  cursor: pointer; 
+  margin-left: 81vw;
+}
+.resetButton:hover {
+  background-color: grey;
 }

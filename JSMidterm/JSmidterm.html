@@ -16,11 +16,17 @@
     <div class ="instructions"> use the slider to enter your phone number</div>
     <div class="slidecontainer">
         <input type="range" min="100000000" max="999999999" value="500000000" class="slider" id="myRange">
-        <button onclick="showPhoneNumber()">Show My Phone Number</button>
+        <button class="showPhoneNumber" onclick="showPhoneNumber()">Show My Phone Number</button>
         <div class="valuecontainer"> 
             <span id="demo">0</span>
         </div>
     </div>
+    <div class="button-container">
+        <button class= "callPhoneNumber" onclick="callPhoneNumber()">Call the Number</button>
+        <button class="resetButton" onclick="resetApplication()">Reset</button>
+    </div>
+    
     <script src="JSmidterm.js"></script>
+    <div class="container bottom-half">
 </body>
 </html>
